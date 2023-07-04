@@ -1,0 +1,37 @@
+{
+    "name": "Krithik Adav",
+    "email": "krithikadavm@gmail.com",
+    "mobile": 9442516845,
+    "designation": "A Software developer",
+    "github_url": "https://github.com/adav-07",
+    "linkedin_url": "https://www.linkedin.com/in/krithik-adav-m-915a41244/",
+    "skills": ["HTML","CSS","JavaScript"],
+    "Projects":[
+        {
+            "project_name":"UI_Creation",
+            "image_url":"https://www.shutterstock.com/image-vector/short-custom-urls-url-shortener-technology-2233924609",
+            "skills_used":["HTML","CSS"],
+            "description":"created a UI for login page"
+        },
+        {
+            "project_name":"Instagram Clone",
+            "image_url":"https://www.shutterstock.com/image-vector/url-shortener-use-scissors-address-bar-2210269047",
+            "skills_used":["React","JavaScript"],
+            "description":"created Instagram clone"
+        }
+    ],
+    "experience":[
+        {
+            "date":"2010-2014",
+            "place":"school",
+            "place_name":"Vidyodaya",
+            "description":"studied in school"
+        },
+        {
+            "date":"2014-2018",
+            "place":"school",
+            "place_name":"PSG Tech",
+            "description":"studied in College"
+        }
+    ]
+  }

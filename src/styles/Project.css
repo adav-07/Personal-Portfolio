@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@keyframes fadeIn{
+  /* 25% {transform: rotate(2deg);width: 305px;height: 305px;} */
+  50% {width: 310px;height: 310px;}
+}
+
+@keyframes fadein{
+  /* 25% {transform: rotate(2deg);width: 305px;height: 305px;} */
+  50% {transform: rotate(2deg);width: 308px;height: 308px;}
+}
+
+@keyframes fadeInText{
+  50% {font-size: 60px;}
+}
+
+.projects {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-color:rgb(242, 242, 189); */
+    /* background-color: #1c1b1b; */
+    /* background-color: rgb(12, 12, 12); */
+    background-color: black;
+  }
+  .projects .projectTitle {
+    text-align: center;
+    color: #3e497a;
+    font-size: 60px;
+    font-weight: bolder;
+  } 
+  .projects .projectsh1{
+    font-size: 40px;
+    animation: fadeInText 1s;
+  }
+  
+  .projectList {
+    width: 70vw;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+  }
+  
+  /* MENU ITEM STYLING */
+  
+  .projectItem {
+    border-radius: 15px;
+    width: 300px;
+    height: 300px;
+    margin: 40px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    animation: fadein 1s;
+    /* color: white; */
+    background-color: black;
+    /* box-shadow: 5 px 10px white; */
+    box-shadow: 0px 5px 15px  rgb(52, 51, 51);
+  }
+  .projectItem:hover {
+    /* transform: rotate(0.5deg); */
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+    transition: 0.4s ease-in-out;
+    cursor: pointer;
+    /* width: 310px; */
+    /* height: 310px; */
+    animation: fadeIn 1s;
+  }
+  
+  .projectItem .bgImage {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .projectItem h1 {
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 10px;
+    color: yellow;
+  }
+  
+  @media only screen and (max-width: 1300px) {
+    .projectList {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .projectList {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .projectList {
+      width: 100%;
+    }
+    .projectItem {
+      width: 300px;
+      height: 300px;
+    }
+  }

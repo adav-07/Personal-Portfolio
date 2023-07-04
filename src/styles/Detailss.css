@@ -1,0 +1,107 @@
+        
+        legend{
+            color: white;
+            font-family: Verdana, Arial, Serif;
+            font-size: 18px;
+
+        }
+
+        h2{
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            font-family: Verdana, Arial, Serif;
+        }
+        *{
+            margin: 0;
+        }
+        .Main{
+            
+            /* background-image: url("https://e0.pxfuel.com/wallpapers/2/511/desktop-wallpaper-abstract-technical-ultra-tech.jpg"); */
+            background-image: url("https://wallpapercave.com/wp/wp2735601.jpg");
+            /* background-repeat: no-repeat;  */
+            background-size:cover;
+            
+        }
+        .addbtn{
+            width:39%;
+            border-radius: 7px;
+            padding: 7px 15px;
+        }
+        .MainContainer
+        {
+            width: 50%;
+            margin: auto;
+            /* background-color: rgb(164, 222, 218); */
+            /* background-image: url("https://c4.wallpaperflare.com/wallpaper/945/425/292/light-beam-blue-wallpaper-preview.jpg"); */
+            
+            padding: 50px;
+            /* margin-top: 4.5%; */
+            border-radius: 20px;
+
+
+        }
+        body
+        {
+            margin: 0;
+            background-color: rgba(227, 200, 195, 0);
+        }
+       
+      
+        input[type=text],input[type=number],input[type=email],input[type=date],input[type=tel],textarea
+        {
+            width: 100%;
+            margin: auto;
+            display: inline-block;  
+            border: none;  
+            background: #000f1c;  
+            padding: 10px;  
+            margin-top: 10px;
+            margin-bottom: 10px;
+            color: white;
+            
+        }
+
+        label
+        {
+            font-family: Verdana, Arial, Serif;
+            font-size: 18px;
+            color: white;
+        }
+        h4{
+            font-family: Verdana, Arial, Serif;
+            color: white;
+
+        }
+        .registerbtn
+          {
+            border:none;
+            background-color: #070706;  
+            color: white;  
+            
+            padding: 19px 20px;  
+            margin: 8px 0;  
+            border: none;   
+            width: 49%;  
+            opacity: 0.9;  
+            border-radius: 10px;
+          }
+          .registerbtn:hover
+          {
+            border:none;
+            background-color: #09bdb7;  
+            color: white;  
+            
+            padding: 19px 20px;  
+            margin: 8px 0;  
+            border: none;   
+            width: 49%;  
+            opacity: 0.9;  
+            border-radius: 10px;
+          }
+
+          
+          fieldset
+          {
+            padding: 30px;;
+          }

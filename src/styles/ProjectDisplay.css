@@ -1,0 +1,41 @@
+@keyframes fadeInText{
+  50% {font-size: 60px;}
+}
+
+.project {
+    width: 100%;
+    /* height: calc(100vh - 100px); */
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+  }
+  
+  .project h1 {
+    margin-top: 50px;
+    /* color: #3e497a; */
+    color: white;
+    font-size: 35px;
+    /* animation: fadeInText 1s; */
+  }
+  .project img {
+    width: 700px;
+    border-radius: 10px;
+  }
+  
+  .project p {
+    font-size: 28px;
+    /* color: #3e497a; */
+    color: white;
+  }
+
+  .para{
+    width: 50%;
+  }
+  
+  .project svg {
+    font-size: 60px;
+    color: #3e497a;
+  }
